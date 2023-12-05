@@ -10,22 +10,24 @@ const Footer = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam
           velit, vulputate eu pharetra nec, mattis ac neque.
         </p>
-        <div className="contact-info-container">
-      <div className="contact-info">
-        <FaEnvelope />
-        <p>example@example.com</p>
-      </div>
-      <div className="contact-info">
-        <FaPhone />
-        <p>123-456-7890</p>
-      </div>
-      <div className="contact-info">
-        <FaLocationArrow />
-        <p>123 Street, City, Country</p>
-      </div>
-    </div>
+        
 
-    
+<div class="icon-container">
+  <FaEnvelope></FaEnvelope>
+  <p>example@example.com</p>
+</div>
+
+<div class="icon-container">
+  <FaPhone></FaPhone>
+  <p>example@example.com</p>
+</div>
+
+<div class="icon-container">
+  <FaLocationArrow></FaLocationArrow>
+  <p>example@example.com</p>
+</div>
+
+
       </div>
 
       <div className="footer-column">

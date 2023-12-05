@@ -213,6 +213,13 @@ text-align: center;
   padding: 20px;
 }
 
+
+.footer-container{
+  background-image: url('./Components/home/Background.png');
+
+}
+
+
 .footer2-links {
   display: flex;
   align-items: center;
@@ -235,7 +242,15 @@ text-align: center;
 }
 
 /* Add any additional styling as needed */
+  .icon-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust as needed */
+  }
 
+  .icon-container svg {
+    margin-right: 10px; /* Adjust as needed */
+  }
 
 /* Responsivenes */
 @media only screen and (max-width: 600px) {
