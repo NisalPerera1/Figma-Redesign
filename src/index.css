@@ -11,3 +11,283 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.bNIVCX {
+  margin-right: 15px !important;
+}
+
+.kgxzDH {
+  color: white;
+  padding: 0px 3px 2px 0;
+  border-radius: 50%;
+  margin-left: 5px;
+  position: relative;
+  left: -9%;
+}
+
+.mainh1{
+  text-transform: uppercase;
+
+  text-align: center;
+}
+
+.mainhr{
+  width: 272px;
+}
+
+.listUnderHeader {
+  list-style: none;
+  padding: 0;
+}
+
+.listUnderHeader li {
+  display: inline-block;
+  margin-right: 10px; /* Adjust the margin as needed */
+  position: relative;
+}
+
+.listUnderHeader li::before {
+  content: "\2022"; /* Unicode character for a bullet point */
+  color: rgb(255, 255, 255); /* Set the color to red or any other color you prefer */
+  font-size: 1.2em; /* Adjust the font size if needed */
+  margin-right: 5px; /* Adjust the space between the bullet and text */
+}
+
+.qqkWM {
+  background-color: #0a0a0b !important;
+  color: white !important; 
+}
+
+.cardDiv {
+  background-image: url('./Components/home/Background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+  background-position: bottom;
+}
+
+.css-1ujykiq-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  background: #cc1a1a ;
+  color: white !important;
+}
+
+.css-1ujykiq-MuiButtonBase-root-MuiTab-root{
+  color: white !important;
+
+}
+
+
+/* Style for labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Style for input fields */
+.LoginInputs {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: rgb(255 255 255 / 16%)
+}
+
+/* Optional: Style for focused input fields */
+.LoginInputs:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+}
+
+.inputIcons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px; /* Adjust the left spacing as needed */
+  color: #555; /* Adjust the color as needed */
+}
+
+/* Style for input field */
+.LoginInputs {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding-left: 30px; /* Ensure the text doesn't overlap with the icon */
+}
+
+/* Optional: Style for focused input field */
+.LoginInputs:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Style for labels */
+label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 40px; /* Adjust the left spacing as needed */
+  color: #777; /* Adjust the color as needed */
+  pointer-events: none;
+  transition: 0.2s ease-out;
+}
+
+/* Move label up on focus or when there is text in the input */
+.LoginInputs:focus + label, .LoginInputs:valid + label {
+  font-size: 12px;
+  transform: translateY(-100%);
+  color: #007bff;
+}
+
+
+.accountInfo{
+color: aliceblue;
+text-align: center;
+
+}
+
+.forgetpassword{
+  color: #777; /* Adjust the color as needed */
+}
+
+
+.socialIcon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.googleIcon {
+  color: #4285F4;
+}
+
+.facebookIcon {
+  color: #1877F2;
+}
+
+.loginButton{
+  width: -webkit-fill-available;
+  background: #cc1a1a;
+  color: white;
+  padding: 10px 0 10px 5px;
+}
+
+
+.socialIcons{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  width: 20%; /* Adjust the width as needed */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Add any additional styling as needed */
+.footer2-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333; /* Add background color as needed */
+  color: white;
+  padding: 20px;
+}
+
+.footer2-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer2-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.footer2-links p {
+  margin: 0;
+}
+
+.footer2-social-icons a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Add any additional styling as needed */
+
+
+/* Responsivenes */
+@media only screen and (max-width: 600px) {
+  .mainh1 {
+    font-size: 24px;
+  }
+
+  .mainhr {
+    width: 80%;
+  }
+
+  .listUnderHeader li::before {
+    font-size: 1em;
+    margin-right: 3px;
+  }
+
+  .cardDiv {
+    height: auto;
+  }
+
+  .LoginInputs {
+    padding-left: 15px;
+  }
+
+  label {
+    left: 15px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .mainh1 {
+    font-size: 28px;
+  }
+
+  .mainhr {
+    width: 50%;
+  }
+
+  .listUnderHeader li::before {
+    font-size: 1.5em;
+    margin-right: 7px;
+  }
+
+  .cardDiv {
+    height: 80vh;
+  }
+
+  .LoginInputs {
+    padding-left: 20px;
+  }
+
+  label {
+    left: 20px;
+  }
+}
